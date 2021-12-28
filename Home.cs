@@ -115,7 +115,7 @@ namespace Bisection_Calculator
                 item.SubItems.Add(result.x1.ToString());
                 item.SubItems.Add(result.x2.ToString());
                 item.SubItems.Add(result.fx2.ToString());
-                item.SubItems.Add(result.Ea.ToString());
+                item.SubItems.Add(i > 0 ? result.Ea.ToString() : "");
 
                 lv_result.Items.Add(item);
             }
